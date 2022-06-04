@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./assets/styles/index.scss);
+
+
+@layer base {
+    html {
+      font-family: Vollkorn, system-ui, sans-serif;
+    }
+  }

@@ -1,0 +1,12 @@
+@import url(./fonts.scss);
+@import url(./reset.scss);
+
+
+
+.exchanger__title {
+    @apply text-5xl font-light mb-4;
+}
+
+.exchanger__subtitle {
+    @apply block mb-10;
+}
