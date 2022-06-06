@@ -3,10 +3,20 @@
 
 
 
-.exchanger__title {
+.ex__title {
     @apply text-5xl font-light mb-4;
 }
 
-.exchanger__subtitle {
+.ex__subtitle {
     @apply block mb-10;
+}
+.ex__input-wrap {
+    @apply flex flex-row 
+}
+
+.ex__select {
+    @apply flex-1 grow bg-slate-50
+}
+.ex__arrow {
+    @apply grow-0 w-1 bg-black
 }
