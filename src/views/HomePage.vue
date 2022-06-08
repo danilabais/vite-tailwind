@@ -87,7 +87,7 @@ export default {
           )
         ).data.minAmount;
       } catch (error) {
-        console.log(eror);
+        console.log(error);
       }
     },
     async fetchEst() {
