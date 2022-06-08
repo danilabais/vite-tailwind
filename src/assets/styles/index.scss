@@ -1,22 +1,38 @@
 @import url(./fonts.scss);
 @import url(./reset.scss);
 
-
-
 .ex__title {
-    @apply text-5xl font-light mb-4;
+  @apply mb-4 text-5xl font-light;
 }
 
 .ex__subtitle {
-    @apply block mb-10;
+  @apply mb-10 block;
 }
 .ex__input-wrap {
-    @apply flex flex-row 
+  @apply flex flex-row;
 }
 
 .ex__select {
-    @apply flex-1 grow bg-slate-50
+  @apply flex-1 grow bg-slate-50;
 }
 .ex__arrow {
-    @apply grow-0 w-1 bg-black
+  @apply w-1 grow-0 bg-black;
+}
+
+.ex__input-wrap {
+  @apply mb-8 flex flex-col items-center md:flex-row;
+}
+
+.ex__swap {
+  @apply my-3 ml-auto rotate-90 cursor-pointer md:mx-7 md:my-0 md:rotate-0;
+}
+
+.ex__address {
+  @apply flex w-full flex-col  md:flex-row;
+}
+.ex__address-btn {
+  @apply relative mt-4 cursor-pointer rounded-md bg-sky-400 py-2 px-14  uppercase text-white transition-all hover:bg-sky-600 md:mt-0;
+}
+.ex__address-error {
+  @apply pointer-events-none absolute top-full left-0 right-0 pt-2 text-center  text-sm normal-case text-red-600;
 }
