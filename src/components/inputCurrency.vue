@@ -107,6 +107,8 @@ export default {
         w-full
         rounded-b-md
         bg-slate-100
+        border border-gray-300
+        border-t-0
         transition-opacity
         z-40
         max-h-36
